@@ -39,10 +39,11 @@ int main ()
 {	int n,i;
 	printf("Enter the number of elements of array to be sorted\t");
 	scanf("%d",&n);
-	printf("Enter the elements of the array\n");
 	int a[n];
+	printf("Enter the elements of the array\n");
 	for (i=1;i<=n;i++)
 		scanf("%d",&a[i]);
+	printf("Sorted array is : \n");
 	printarray(mergesort(a,1,n),1,n);
 }
 
