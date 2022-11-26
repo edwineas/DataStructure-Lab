@@ -11,7 +11,7 @@ int linearsearch (int a[], int n, int x)
 
 void main ()
 {
-    int n,i,x,a[50];
+    int n,i,x,r,a[50];
     printf("Enter the total number of elements\t");
     scanf("%d",&n);
     printf("Enter the numbers of the array\n");
@@ -19,7 +19,8 @@ void main ()
         scanf("%d",&a[i]);
     printf("Enter the number to search\t");
     scanf("%d",&x);
-    if (linearsearch (a,n,x)==0)
+    r=linearsearch (a,n,x);
+    if (r==0)
         printf("%d is not present in the arra");
     else
         printf("%d is present in the array at position %d \n",x,linearsearch(a,n,x));
