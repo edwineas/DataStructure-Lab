@@ -54,7 +54,6 @@ void main ()
                 s[t]=x;
                 printf("Data added sucessfully\n");
                 t=t+1;
-                printf("%d\n",t);
             }
             break;
         case 2:
