@@ -12,7 +12,6 @@ void display();
 void main()
 {
     int choice, value;
-    printf("\n:: Stack using Linked List ::\n");
     while (1)
     {
         printf("\n");
@@ -21,21 +20,21 @@ void main()
         scanf("%d",&choice);
         switch(choice)
         {
-                case 1:
-                    printf("Enter the value to be insert: ");
-                    scanf("%d", &value);
-                    push(value);
-                    break;
-                case 2:
-                    pop();
-                    break;
-                case 3:
-                    display();
-                    break;
-                case 4:
-                    exit(0);
-                default:
-                    printf("\nWrong selection!!! Please try again!!!\n");
+            case 1:
+                printf("Enter the value to be insert: ");
+                scanf("%d", &value);
+                push(value);
+                break;
+            case 2:
+                pop();
+                break;
+            case 3:
+                display();
+                break;
+            case 4:
+                exit(0);
+            default:
+                printf("\nWrong selection!!! Please try again!!!\n");
         }
     }
 }
