@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 struct Node
 {
     int data;
@@ -10,7 +11,6 @@ void display();
 void main()
 {
     int choice, value;
-    printf("\n Queue Implementation using Linked List \n");
     while (1)
     {
         printf("\n");
