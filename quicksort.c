@@ -45,7 +45,7 @@ void print(int A[], int n)
     int i;
     printf("The sorted Array is: ");
     for (i = 0; i < n; i++)
-        printf("%d ", A[i]);
+        printf("%d", A[i]);
 }
 void main()
 {
